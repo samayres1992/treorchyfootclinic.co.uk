@@ -1,0 +1,260 @@
+@font-face {
+    font-family: RalewayBold;
+    src: url('../fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url('../fonts/Raleway-Regular.ttf');
+}
+
+html, body, p {
+	font-family: "Raleway";
+}
+
+h1 {
+	font-size: 42px
+}
+
+h2 {
+	font-size: 26px;
+}
+
+h1, h2, h3, a, a:hover, a:visited, a:active {
+	color: #FD7CAD;
+}
+
+.navbar {
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+@media screen and (min-width: 500px) {
+    .navbar-brand {
+        float: left;
+    }
+
+    .navbar-end {
+        float: right;
+    }
+}
+
+.navbar h1 {
+	font-family: "RalewayBold";
+    color: #FD7CAD;
+    font-size: 24px;
+}
+
+.button.is-primary {
+	background-color: #FD7CAD!important;
+}
+
+section.container {
+	margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.photos {
+	position: relative;
+	min-height: 280px;
+}
+
+img.debra {
+	border-radius: 125px;
+	position: absolute;
+	left: 45%;
+	left: calc(50% - 185px);
+	width: 250px;
+	border: 2px solid #FD7CAD;
+}
+
+img.chloe {
+	border-radius: 125px;
+	position: absolute;
+	left: 45%;
+	left: calc(50% - 10px);
+	width: 180px;
+	border: 2px solid #FD7CAD;
+	top: 80px;
+}
+
+.bio {
+	padding-top: 2%;
+}
+
+.testimonials {
+	padding: 60px 0;
+}
+
+.testimonials h1 {
+	text-align: center;
+}
+
+.testimonials span {
+    margin: 0 auto;
+    text-align: center;
+    width: 60px;
+    display: block;
+    color: #FD7CAD;
+    border: 1px solid #FD7CAD;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.testimonials span svg {
+	font-size: 36px;
+}
+
+.testimonials h3 {
+	margin: 0 auto;
+    text-align: center;
+    padding-top: 5px;
+}
+
+img.yell {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 6px;
+    left: 10px
+}
+
+iframe {
+	position: relative;
+    top: 7px;
+}
+
+footer {
+	background-color: rgba(0,0,0,0.1)!important;
+	background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: 65px;
+    background-position-x: 30px;
+    background-position-y: 35px;
+    padding-bottom: 2em!important;
+    position: relative;
+}
+
+footer .container, footer .columns, footer .column {
+	padding-top: 0px;
+}
+
+footer .content {
+	padding-left: 100px;
+}
+
+footer .content .contact {
+    text-align: center;
+    position: relative;
+    left: calc(50% - 110px);
+    display: inline;
+}
+
+footer .cred {
+    position: relative;
+    left: calc(50% - 110px);
+    text-align: left;
+}
+
+footer .content .contact ul, footer .content .contact li  {
+    list-style: none;
+    text-decoration: none;
+    width: 204px!important;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+
+footer .social {
+	text-align: right;
+}
+
+footer .social a {
+    font-size: 32px;
+    border: 2px solid #FD7CAD;
+    padding: 10px 20px;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 30px;
+    margin-left: 10px;
+}
+
+footer .social a.linkedin {
+	padding: 10px 14px;
+}
+
+footer .verified {
+    text-align: center;
+}
+
+footer img.hcpc {
+    width: 72px;
+    height: 70px;
+}
+
+footer img.society {
+    height: 60px;
+    width: 203px;
+    margin-right: 10px;
+}
+
+.tab-content {
+	padding: 25px;
+}
+
+.iubenda-ibadge {
+    position: absolute;
+    right: 0;
+    top: 120px;
+    right: 35px;
+}
+
+#iubenda-cs-banner div:first-child {
+    background: #FD7CAD;
+}
+
+#iubenda-cs-banner a {
+    color: #fff!important;
+}
+
+.iubenda-cs-close-btn {
+    font-size: 24px!important;
+    border: 1px solid white!important;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border-radius: 20px!important;
+    right: -30px!important;
+    color: #fff;
+}
+
+.iubenda-cs-close-btn a {
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    footer {
+        background-position-x: calc(50% - 105px);
+    }
+
+    footer .content {
+        text-align: center;
+    }
+
+    footer .verified {
+        padding-top: 70px;
+        text-align: center;
+    }
+
+    footer .social {
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    .iubenda-ibadge {
+        top: auto;
+        right: 42%;
+        bottom: 10px;
+        right: calc(50% - 52.5px);
+     }
+}
