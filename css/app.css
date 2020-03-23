@@ -258,3 +258,11 @@ footer img.society {
         right: calc(50% - 52.5px);
      }
 }
+
+.covid .container {
+    margin-bottom: 15px;
+}
+
+.covid ul, .covid li {
+    list-style: circle;
+}
